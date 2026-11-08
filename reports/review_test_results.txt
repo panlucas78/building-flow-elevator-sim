@@ -1,0 +1,39 @@
+test_all_policies_share_requests_and_conserve_people (test_simulation.SimulationTests.test_all_policies_share_requests_and_conserve_people) ... ok
+test_benchmark_requires_distinct_seeds_and_reports_progress (test_simulation.SimulationTests.test_benchmark_requires_distinct_seeds_and_reports_progress) ... ok
+test_call_completes_once_without_reopening_forever (test_simulation.SimulationTests.test_call_completes_once_without_reopening_forever) ... ok
+test_capacity_and_same_floor_multiple_passengers (test_simulation.SimulationTests.test_capacity_and_same_floor_multiple_passengers) ... ok
+test_car_between_targets_keeps_moving (test_simulation.SimulationTests.test_car_between_targets_keeps_moving) ... ok
+test_csv_rejects_silent_data_loss_and_parser_errors (test_simulation.SimulationTests.test_csv_rejects_silent_data_loss_and_parser_errors) ... ok
+test_csv_roundtrip_and_validation (test_simulation.SimulationTests.test_csv_roundtrip_and_validation) ... ok
+test_deterministic_replay_and_monitoring_has_no_effect (test_simulation.SimulationTests.test_deterministic_replay_and_monitoring_has_no_effect) ... ok
+test_empty_request_stream (test_simulation.SimulationTests.test_empty_request_stream) ... ok
+test_export_and_paired_benchmark (test_simulation.SimulationTests.test_export_and_paired_benchmark) ... ok
+test_forecast_records_configured_horizon (test_simulation.SimulationTests.test_forecast_records_configured_horizon) ... ok
+test_future_arrivals_cannot_change_earlier_behavior (test_simulation.SimulationTests.test_future_arrivals_cannot_change_earlier_behavior) ... ok
+test_hand_calculated_single_passenger (test_simulation.SimulationTests.test_hand_calculated_single_passenger) ... ok
+test_invalid_configuration_and_horizon (test_simulation.SimulationTests.test_invalid_configuration_and_horizon) ... ok
+test_opposite_hall_directions_both_get_service (test_simulation.SimulationTests.test_opposite_hall_directions_both_get_service) ... ok
+test_partial_empty_movement_at_horizon_is_counted (test_simulation.SimulationTests.test_partial_empty_movement_at_horizon_is_counted) ... ok
+test_predictor_is_causal_and_finite (test_simulation.SimulationTests.test_predictor_is_causal_and_finite) ... ok
+test_requests_are_seeded_and_legal_for_every_scenario (test_simulation.SimulationTests.test_requests_are_seeded_and_legal_for_every_scenario) ... ok
+test_unserved_people_remain_in_metrics (test_simulation.SimulationTests.test_unserved_people_remain_in_metrics) ... ok
+test_batch_form_and_empty_policy_feedback (test_ui.InterfaceTests.test_batch_form_and_empty_policy_feedback) ... 2026-11-08 02:36:08.637 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_csv_is_used_instead_of_generated_traffic (test_ui.InterfaceTests.test_csv_is_used_instead_of_generated_traffic) ... 2026-11-08 02:36:11.452 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_invalid_cli_duration_is_an_argument_error (test_ui.InterfaceTests.test_invalid_cli_duration_is_an_argument_error) ... ok
+test_oversized_csv_field_has_friendly_error (test_ui.InterfaceTests.test_oversized_csv_field_has_friendly_error) ... 2026-11-08 02:36:12.033 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_settings_recompute_shared_input_and_replay_step (test_ui.InterfaceTests.test_settings_recompute_shared_input_and_replay_step) ... 2026-11-08 02:36:12.132 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_zero_demand_renders_without_division_errors (test_ui.InterfaceTests.test_zero_demand_renders_without_division_errors) ... 2026-11-08 02:36:14.309 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_zip_is_reused_until_experiment_changes (test_ui.InterfaceTests.test_zip_is_reused_until_experiment_changes) ... 2026-11-08 02:36:15.018 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 8.618s
+
+OK
+
+补充验证：test_zip_is_reused_until_experiment_changes 在加入旧会话预测字段兼容后重新运行通过；检查旧记录可显示、ZIP复用及新实验失效。

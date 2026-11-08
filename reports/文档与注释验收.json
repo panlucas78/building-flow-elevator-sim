@@ -1,0 +1,26 @@
+{
+  "speech_chinese_characters": 1568,
+  "speech_all_characters": 1874,
+  "code_verification": {
+    "eos.py": {
+      "executable_ast_unchanged": true,
+      "sha256": "03107f8cd8524dc31d2cd80febbc6e3df1d6f6062cd4bc3ae814807ca73f5c79"
+    },
+    "elevator_sim.py": {
+      "executable_ast_unchanged": true,
+      "sha256": "c31781e27faf6842677996d8c693feb60dd7615cd2b6c945f261e261cfc5a065"
+    }
+  },
+  "docx": "D:\\codex文件保存处\\python比赛\\楼宇Flow项目介绍与演讲稿.docx",
+  "planned_pages": 7,
+  "rendered_pages": 7,
+  "render_review": "All seven pages visually inspected; no clipping or blank pages.",
+  "test_result": "20 tests passed; reports/annotation_test_results.txt",
+  "delivery_hashes": {
+    "楼宇Flow项目介绍与演讲稿.docx": "30956c793a15209e45fde548e0e4819c0aef871378d6985862880ca025278db3",
+    "楼宇Flow项目介绍与演讲稿.md": "cad9e442eb4268bec042b822014a38085eebf8be40c2efc2d9a1087ad6ba8ed1",
+    "关键代码阅读索引.md": "94b23facb33d11cd9b2be994ca81c46648a76c28c8acae450ce86a4ecfe5352a"
+  },
+  "scope": "Historical annotation-only revision; current code and document have subsequently been maintained.",
+  "superseded_by": "reports/review_regression.json and reports/review_test_results.txt"
+}

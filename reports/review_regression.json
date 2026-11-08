@@ -1,0 +1,65 @@
+{
+  "default_experiment_metrics_unchanged": true,
+  "five_seed_all_policy_benchmark_unchanged": true,
+  "reassignment_example": {
+    "passenger_id": 2,
+    "elevator_id": 0,
+    "wait_seconds": 77.5,
+    "snapshot_at_20": {
+      "time": 20.0,
+      "waiting": 1,
+      "riding": 1,
+      "delivered": 1,
+      "by_floor": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "elevators": [
+        {
+          "id": 0,
+          "floor": 6,
+          "position": 6.133333333333333,
+          "direction": 1,
+          "state": "MOVING",
+          "load": 1,
+          "assigned": 1,
+          "target": 7,
+          "stops": [
+            12
+          ]
+        },
+        {
+          "id": 1,
+          "floor": 2,
+          "position": 2.0,
+          "direction": 0,
+          "state": "IDLE",
+          "load": 0,
+          "assigned": 0,
+          "target": null,
+          "stops": []
+        }
+      ]
+    }
+  },
+  "tests_passed": 26,
+  "document_pages": 7,
+  "document_visual_review": "All pages inspected",
+  "source_sha256": {
+    "eos.py": "2d1bb653bfa0857cea5e6e4e1f9ea83405aafad270792031ed7c22fd18a12a76",
+    "elevator_sim.py": "fa343ce34873015f77c523f8a201ceacfc65965b50cba466308f04622b81214e",
+    "test_simulation.py": "41f9032786c0b55f18ea54aefaad841458a19baa1a489a68b940306a92161c64",
+    "test_ui.py": "eec603748b4d2e4a2457e7d17110500e55ed9cc6974bd64e11620cf66ff26f17"
+  }
+}
