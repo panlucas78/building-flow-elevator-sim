@@ -19,6 +19,10 @@ htmlcov/
 backups/
 work/
 
+# Presentation drafts kept only on the local computer
+/楼宇Flow项目介绍与演讲稿.docx
+/楼宇Flow项目介绍与演讲稿.md
+
 # Local credentials and machine-specific settings
 .env
 .env.*

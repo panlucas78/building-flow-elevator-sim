@@ -11,14 +11,12 @@ git clone https://github.com/panlucas78/building-flow-elevator-sim.git
 Set-Location building-flow-elevator-sim
 ```
 
-仓库包含源码、启动脚本、介绍文档与合成实验报告。新电脑需安装Python 3.12，然后双击 `setup.cmd` 安装依赖，再双击 `启动系统.cmd`。
+仓库包含源码、启动脚本、代码说明与合成实验报告。新电脑需安装Python 3.12，然后双击 `setup.cmd` 安装依赖，再双击 `启动系统.cmd`。
 
 `.venv`、缓存、本机代理配置、凭据和 `backups` 由 `.gitignore` 排除。下文提到的 `D:\codex文件保存处\python比赛`、已安装环境和备份目录描述原开发电脑的状态；克隆后以实际保存位置为准。原开发电脑的虚拟环境与本地备份仍保留。
 
-## 演讲与代码讲解资料
+## 代码讲解资料
 
-- `楼宇Flow项目介绍与演讲稿.docx`：7页介绍文档，包含可朗读的演讲稿、约一分钟演示步骤、实际实验数据、关键代码摘录与答辩问题；建议预留7至9分钟。
-- `楼宇Flow项目介绍与演讲稿.md`：同内容文本版，方便改稿。
 - `关键代码阅读索引.md`：重要类、函数及行号索引。`eos.py` 与 `elevator_sim.py` 已直接添加中文注释，说明输入、调度、状态转移、预测及统计边界。
 
 此前注释交付只增加中文说明，20项测试通过，记录见 `reports/annotation_test_results.txt`；注释前版本保存在 `backups/*_before_annotations_20261108.py`。
