@@ -17,6 +17,8 @@ Set-Location building-flow-elevator-sim
 
 ## 代码讲解资料
 
+- [程序改动与功能说明 在线阅读](楼宇Flow程序改动与功能说明.md)：详细说明原版对比、五种策略、界面操作、参数与指标、实验结果、代码位置及当前限制。
+- [程序改动与功能说明 Word版](楼宇Flow程序改动与功能说明.docx)：18页说明文档，便于下载、编辑和分享。
 - `关键代码阅读索引.md`：重要类、函数及行号索引。`eos.py` 与 `elevator_sim.py` 已直接添加中文注释，说明输入、调度、状态转移、预测及统计边界。
 
 此前注释交付只增加中文说明，20项测试通过，记录见 `reports/annotation_test_results.txt`；注释前版本保存在 `backups/*_before_annotations_20261108.py`。
